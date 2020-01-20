@@ -1,15 +1,17 @@
-import {AfterViewInit, Component} from '@angular/core';
+import {Component} from '@angular/core';
+
+import {AgChartOptions} from 'ag-charts-angular';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html'
 })
-export class AppComponent implements AfterViewInit {
-    options = {};
+export class AppComponent {
+    options: AgChartOptions;
 
     markerSize = 25;
 
-    ngAfterViewInit(): void {
+    constructor() {
         this.updateOptions()
     }
 

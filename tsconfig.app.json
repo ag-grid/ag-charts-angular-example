@@ -10,12 +10,16 @@
       ]
     }
   },
+  "angularCompilerOptions": {
+    "enableIvy": true
+  },
   "files": [
     "src/main.ts",
     "src/polyfills.ts"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/polyfills.ts",
+    "src/main.ts"
   ],
   "exclude": [
     "src/test.ts",
