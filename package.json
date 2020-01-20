@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve --port 8080",
+    "build": "ng build --prod",
     "test": "ng test --watch false --browsers ChromeHeadless",
     "lint": "ng lint"
   },
@@ -21,6 +21,7 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
+    "ag-charts-angular": "~22.1.1",
     "ag-charts-community": "~22.1.1"
   },
   "devDependencies": {
