@@ -1,13 +1,11 @@
 import {Component} from '@angular/core';
 
-import {AgChartOptions} from 'ag-charts-angular';
-
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html'
 })
 export class AppComponent {
-    options: AgChartOptions;
+    options: any;
 
     markerSize = 25;
 
