@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 8080",
-    "build": "ng build --prod",
+    "build": "ng build --prod && npm run hash",
+    "hash": "sh ./hashDirectory.sh > .hash",
     "test": "ng test --watch false --browsers ChromeHeadless",
     "lint": "ng lint"
   },
