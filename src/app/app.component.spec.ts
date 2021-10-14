@@ -20,9 +20,9 @@ describe('AppComponent', () => {
         expect(app).toBeTruthy();
     });
 
-    it(`should have as markerSize of 25`, () => {
+    it(`should have as markerSize of 10`, () => {
         const fixture = TestBed.createComponent(AppComponent);
         const app = fixture.debugElement.componentInstance;
-        expect(app.markerSize).toEqual(25);
+        expect(app.markerSize).toEqual(10);
     });
 });
