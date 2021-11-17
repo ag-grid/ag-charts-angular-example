@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
 export class AppComponent {
     options: any;
 
-    markerSize = 25;
+    markerSize = 10;
 
     constructor() {
         this.updateOptions()
@@ -39,11 +39,11 @@ export class AppComponent {
             }],
             series: [{
                 xKey: 'month',
-                yKey: 'revenue'
-            }],
-            legend: {
-                markerSize: this.markerSize
-            }
+                yKey: 'revenue',
+                marker: {
+                    size: this.markerSize
+                }
+            }]
         };
     }
 }

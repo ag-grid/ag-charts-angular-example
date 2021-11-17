@@ -1,6 +1,6 @@
 {
   "name": "ag-charts-angular-example",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 8080",
@@ -22,8 +22,8 @@
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1",
-    "ag-charts-angular": "~4.1.0",
-    "ag-charts-community": "~4.1.0",
+    "ag-charts-angular": "~4.2.0",
+    "ag-charts-community": "~4.2.0",
     "@babel/compat-data": "7.8.0"
   },
   "devDependencies": {
