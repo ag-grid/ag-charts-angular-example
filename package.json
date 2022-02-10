@@ -1,6 +1,6 @@
 {
   "name": "ag-charts-angular-example",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 8080",
@@ -10,8 +10,8 @@
   },
   "private": true,
   "dependencies": {
-    "ag-charts-angular": "~5.0.0",
-    "ag-charts-community": "~5.0.0",
+    "ag-charts-angular": "~5.0.1",
+    "ag-charts-community": "~5.0.1",
     "@angular/animations": "~11.2.12",
     "@angular/common": "~11.2.12",
     "@angular/compiler": "~11.2.12",
