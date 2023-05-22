@@ -3,8 +3,8 @@
   "version": "7.3.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 8080",
-    "build": "ng build --aot && npm run hash",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve --port 8080",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider ng build --aot && npm run hash",
     "build-prod": "npm run build",
     "hash": "sh ./hashDirectory.sh > .hash",
     "lint": "ng lint"
