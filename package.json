@@ -1,6 +1,6 @@
 {
   "name": "ag-charts-angular-example",
-  "version": "8.1.0",
+  "version": "9.2.0",
   "scripts": {
     "ng": "ng",
     "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve --port 8080",
@@ -11,8 +11,8 @@
   },
   "private": true,
   "dependencies": {
-    "ag-charts-angular": "~8.1.0",
-    "ag-charts-community": "~8.1.0",
+    "ag-charts-angular": "~9.2.0",
+    "ag-charts-community": "~9.2.0",
     "@angular/animations": "~12.2.0",
     "@angular/common": "~12.2.0",
     "@angular/compiler": "~12.2.0",
